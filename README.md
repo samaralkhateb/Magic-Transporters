@@ -35,7 +35,7 @@ Magic Transporters aims to provide a simple REST API to manage magic movers and 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/magic-transporters.git
+    git clone https://github.com/samaralkhateb/Magic-Transporters.git
     cd magic-transporters
     ```
 
