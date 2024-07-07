@@ -1,0 +1,66 @@
+
+The server will start on `http://localhost:3000`.
+
+## API Endpoints
+
+### Add a Magic Mover
+
+- **URL:** `/api/movers`
+- **Method:** `POST`
+- **Body:**
+
+    ```json
+    {
+      "weightLimit": number,
+      "energy": number,
+      "questState": "resting" | "loading" | "on a mission" | "done",
+      "missionsCompleted": number,
+      "items": []
+    }
+    ```
+
+### Add a Magic Item
+
+- **URL:** `/api/items`
+- **Method:** `POST`
+- **Body:**
+
+    ```json
+    {
+      "name": "string",
+      "weight": number
+    }
+    ```
+
+### Load a Mover with an Item
+
+- **URL:** `/api/movers/:id/load`
+- **Method:** `POST`
+- **Body:**
+
+    ```json
+    {
+      "itemId": "string"
+    }
+    ```
+
+### Start a Mission
+
+- **URL:** `/api/movers/:id/start`
+- **Method:** `POST`
+
+### End a Mission
+
+- **URL:** `/api/movers/:id/end`
+- **Method:** `POST`
+
+### Get Top Movers
+
+- **URL:** `/api/movers`
+- **Method:** `GET`
+
+## Error Handling
+
+The application includes centralized error handling and a utility to handle asynchronous routes. Errors are logged to the console, and a JSON response is returned to the client with an error message.
+
+ 
