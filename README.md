@@ -58,9 +58,15 @@ Magic Transporters aims to provide a simple REST API to manage magic movers and 
     const MONGO_URL = 'your-mongodb-connection-string';
     ```
 
+
+
+## API Postman Collection
+you can find it in the project folder : ```package-lock.json ```
+
+
 ## Usage
 
 To start the application, use the following command:
 
-```bash
-npm start
+```npm start```
+
