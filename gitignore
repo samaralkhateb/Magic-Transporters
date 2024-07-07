@@ -55,23 +55,3 @@ out/
 
 # dotenv environment variable files
 .env
-.env.test
-.env.production
-
-# Mac system files
-.DS_Store
-
-# Windows system files
-Thumbs.db
-
-# IDE and editor files
-.vscode/
-.idea/
-*.sublime-workspace
-
-# Logs and databases for debug tools
-*.tgz
-.parcel-cache
-
-# npm package lock file
-package-lock.json
